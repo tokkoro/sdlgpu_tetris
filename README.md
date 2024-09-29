@@ -20,4 +20,4 @@ Links SDL statically to produce a single portable executable.
  * go to the newly created build folder and open the .sln file
  * compile and run normally
 ### Linux & Mac:
- * probably use "cmake -S . -B build" and run "make build -j 12" or something like that, good luck
+ * probably use "cmake -S . -B build" and run "cd build; make" or something like that, good luck
