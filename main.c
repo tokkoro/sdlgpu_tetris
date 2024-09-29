@@ -901,7 +901,6 @@ SDL_AppResult SDL_AppEvent(void* appstate_ptr, SDL_Event* event)
 SDL_AppResult SDL_AppInit(void** appstate_out, int argc, char* argv[])
 {
 	AppState* appstate = SDL_calloc(1, sizeof(AppState));
-	SDL_memset(appstate, 0, sizeof(*appstate));
 	*appstate_out = appstate;
 
 	/* Initialize test framework */
